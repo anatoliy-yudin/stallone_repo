@@ -1,0 +1,26 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Google Chrome
+GenericName=Web Browser
+Comment=Access the Internet
+Exec=skype --dbpath=~/.ZaporogecSkype
+Terminal=false
+Icon=/home/anatoliy/Desktop/1882010513320508237.png
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+Name[en]=work Skype
+
+Name[en_AU]=ZP Skype
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/opt/google/chrome/google-chrome
+TargetEnvironment=Unity
+
+[NewIncognito Shortcut Group]
+Name=New Incognito Window
+Exec=/opt/google/chrome/google-chrome --incognito
+TargetEnvironment=Unity
